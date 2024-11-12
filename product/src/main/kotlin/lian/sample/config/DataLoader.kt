@@ -27,7 +27,7 @@ class DataLoader(
         val product = Product(
           name = "아이스 아메리카노",
           price = BigDecimal(4500),
-          category = null,
+          category = category,
           optionGroup = null,
           status = ProductStatus.AVAILABLE,
           createdAt = Instant.now(),

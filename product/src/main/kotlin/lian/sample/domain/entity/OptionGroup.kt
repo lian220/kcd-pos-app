@@ -3,7 +3,7 @@ package lian.sample.domain.entity
 import jakarta.persistence.*
 
 @Entity
-@Table(name = "OPTION_GROUP", schema = "sys")
+@Table(name = "OPTION_GROUP")
 data class OptionGroup(
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

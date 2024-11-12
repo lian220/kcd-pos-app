@@ -6,7 +6,7 @@ import java.math.BigDecimal
 import java.time.Instant
 
 @Entity
-@Table(name = "PRODUCT", schema = "sys")
+@Table(name = "PRODUCT")
 data class Product(
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,7 +21,7 @@ data class Product(
 
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "CATEGORY_ID")
-  val category: Category?,
+  val category: Category,
 
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "OPTION_GROUP_ID")
