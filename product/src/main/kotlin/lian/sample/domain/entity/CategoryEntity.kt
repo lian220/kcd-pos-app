@@ -5,7 +5,7 @@ import java.time.Instant
 
 @Entity
 @Table(name = "CATEGORY")
-data class Category(
+data class CategoryEntity(
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "CATEGORY_ID")

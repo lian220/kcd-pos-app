@@ -19,7 +19,7 @@ class SwaggerConfig {
   private fun configurationInfo(): Info {
     return Info()
       .title("KCD POS 상품 API")
-      .description("OpenAPI3 - Springdoc을 사용한 Swagger UI")
+      .description("OpenAPI - Springdoc을 사용한 Swagger UI")
       .version("1.0.0")
   }
 }

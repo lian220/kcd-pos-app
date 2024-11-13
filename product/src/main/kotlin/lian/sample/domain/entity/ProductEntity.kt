@@ -1,13 +1,13 @@
 package lian.sample.domain.entity
 
 import jakarta.persistence.*
-import lian.sample.domain.type.ProductStatus
+import lian.sample.jpa.BooleanToYNConverter
 import java.math.BigDecimal
 import java.time.Instant
 
 @Entity
 @Table(name = "PRODUCT")
-data class Product(
+data class ProductEntity(
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "PRODUCT_ID")
@@ -19,17 +19,23 @@ data class Product(
   @Column(name = "PRICE", precision = 10, scale = 2, nullable = false)
   val price: BigDecimal,
 
+  @Column(name = "COLOR", nullable = false, length = 50)
+  val color: String,
+
+  @Column(name = "IS_TAX_INCLUDED", length = 1, nullable = false, columnDefinition = "CHAR(1) DEFAULT 'Y'")
+  @Convert(converter = BooleanToYNConverter::class)
+  val isTaxIncluded: Boolean = true,
+
+  @Column(name = "STATUS", nullable = false, length = 20, columnDefinition = "VARCHAR(20) DEFAULT 'AVAILABLE'")
+  val status: String = "AVAILABLE",
+
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "CATEGORY_ID")
-  val category: Category,
+  val categoryEntity: CategoryEntity,
 
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "OPTION_GROUP_ID")
-  val optionGroup: OptionGroup? = null,
-
-  @Enumerated(EnumType.STRING)
-  @Column(name = "STATUS", nullable = false)
-  val status: ProductStatus = ProductStatus.AVAILABLE,
+  val optionGroup: OptionGroupEntity? = null,
 
   @Column(name = "CREATED_AT", nullable = false, updatable = false)
   val createdAt: Instant = Instant.now(),
