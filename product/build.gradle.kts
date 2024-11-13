@@ -12,5 +12,4 @@ dependencies {
   annotationProcessor(group = "com.querydsl", name = "querydsl-apt", classifier = "jakarta")
 
   implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
-  implementation(project(":core"))
 }

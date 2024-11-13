@@ -3,6 +3,7 @@ plugins {
 }
 rootProject.name = "gradle-multi-module"
 
-include("core")
+include("infra")
+include("infra:feign")
 include("product")
 include("order")

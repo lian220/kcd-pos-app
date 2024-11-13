@@ -110,7 +110,7 @@ subprojects {
 	}
 }
 
-project(":core") {
+project(":infra") {
 	tasks.bootJar {enabled = false}
 	tasks.jar {enabled = true}
 }
