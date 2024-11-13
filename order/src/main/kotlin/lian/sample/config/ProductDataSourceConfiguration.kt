@@ -1,4 +1,4 @@
-package lian.sample.configuration
+package lian.sample.config
 
 import com.zaxxer.hikari.HikariDataSource
 import lian.sample.jpa.MasterSlaveRoutingDataSource
@@ -19,50 +19,50 @@ import javax.sql.DataSource
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(
-  basePackages = ["lian.sample.repository.product", "lian.sample.repository.order"],
-  entityManagerFactoryRef = "itemEntityManagerFactory",
-  transactionManagerRef = "itemTransactionManager"
+  basePackages = ["lian.sample.domain"],
+  entityManagerFactoryRef = "productEntityManagerFactory",
+  transactionManagerRef = "productTransactionManager"
 )
-class ItemDataSourceConfiguration(
+class ProductDataSourceConfiguration(
   private val jpaProperties: JpaProperties
 ) {
 
   @Bean
-  @ConfigurationProperties("datasource.item.master")
-  fun itemMasterDatasource(): DataSource = DataSourceBuilder.create().type(HikariDataSource::class.java).build()
+  @ConfigurationProperties("datasource.product.master")
+  fun productMasterDatasource(): DataSource = DataSourceBuilder.create().type(HikariDataSource::class.java).build()
 
   @Bean
-  @ConfigurationProperties("datasource.item.slave")
-  fun itemSlaveDatasource(): DataSource = DataSourceBuilder.create().type(HikariDataSource::class.java).build()
+  @ConfigurationProperties("datasource.product.slave")
+  fun productSlaveDatasource(): DataSource = DataSourceBuilder.create().type(HikariDataSource::class.java).build()
 
   @Bean
-  fun itemRoutingDataSource() = MasterSlaveRoutingDataSource().apply {
+  fun productRoutingDataSource() = MasterSlaveRoutingDataSource().apply {
     setTargetDataSources(hashMapOf<Any, Any>(
-      "master" to itemMasterDatasource(),
-      "slave" to itemSlaveDatasource()))
-    setDefaultTargetDataSource(itemMasterDatasource())
+      "master" to productMasterDatasource(),
+      "slave" to productSlaveDatasource()))
+    setDefaultTargetDataSource(productMasterDatasource())
   }
 
   @Primary
   @Bean
-  fun itemLazyDataSource() = LazyConnectionDataSourceProxy(itemRoutingDataSource())
+  fun productLazyDataSource() = LazyConnectionDataSourceProxy(productRoutingDataSource())
 
   @Primary
-  @Bean("itemEntityManagerFactory")
-  fun itemEntityManagerFactory() = LocalContainerEntityManagerFactoryBean().apply {
-    dataSource = itemLazyDataSource()
-    setPackagesToScan("lian.sample.repository.order", "lian.sample.repository.product")
+  @Bean("productEntityManagerFactory")
+  fun productEntityManagerFactory() = LocalContainerEntityManagerFactoryBean().apply {
+    dataSource = productLazyDataSource()
+    setPackagesToScan("lian.sample.domain")
     jpaVendorAdapter = HibernateJpaVendorAdapter().apply {
       setShowSql(jpaProperties.isShowSql)
       setGenerateDdl(jpaProperties.isGenerateDdl)
       setJpaPropertyMap(jpaProperties.properties)
     }
-    persistenceUnitName = "itemEntityManager"
+    persistenceUnitName = "productEntityManager"
     afterPropertiesSet()
   }
 
   @Primary
-  @Bean("itemTransactionManager")
-  fun itemTransactionManager() = JpaTransactionManager(itemEntityManagerFactory().`object`!!)
+  @Bean("productTransactionManager")
+  fun productTransactionManager() = JpaTransactionManager(productEntityManagerFactory().`object`!!)
 }
 

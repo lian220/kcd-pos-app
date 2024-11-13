@@ -9,7 +9,7 @@ data class OptionGroupEntity(
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "OPTION_GROUP_ID")
-  val id: Long = 0,
+  val id: Int,
 
   @Column(name = "NAME", nullable = false)
   val name: String,

@@ -9,8 +9,8 @@ data class ProductRes(
   val name: String,
   val price: BigDecimal,
   val color: String,
-  var category: Category,
-  var optionGroup: OptionGroup?,
+  val category: Category,
+  val optionGroup: OptionGroup?,
   val isTaxIncluded: Boolean,
   val status: String
 )

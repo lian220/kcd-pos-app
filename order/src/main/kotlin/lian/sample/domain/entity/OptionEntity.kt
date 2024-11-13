@@ -2,15 +2,14 @@ package lian.sample.domain.entity
 
 import jakarta.persistence.*
 import java.math.BigDecimal
-import java.time.Instant
 
 @Entity
-@Table(name = "`OPTION`")
+@Table(name = "OPTION")
 data class OptionEntity(
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "OPTION_ID")
-  val id: Long = 0,
+  val id: Int,
 
   @Column(name = "NAME", nullable = false)
   val name: String,
@@ -20,8 +19,8 @@ data class OptionEntity(
 
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "OPTION_GROUP_ID")
-  val optionGroup: OptionGroupEntity,
+  val optionGroup: OptionGroupEntity? = null,
 
   @Column(name = "CREATED_AT", nullable = false, updatable = false)
-  val createdAt: Instant = Instant.now()
+  val createdAt: java.time.LocalDateTime = java.time.LocalDateTime.now()
 )

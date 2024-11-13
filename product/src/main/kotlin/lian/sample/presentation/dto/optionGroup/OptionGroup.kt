@@ -1,4 +1,18 @@
 package lian.sample.presentation.dto.optionGroup
 
-class OptionGroup {
-}
+import java.math.BigDecimal
+
+data class OptionGroup(
+  val id: Long?,
+  val name: String,
+  val isRequired: String = "Y",
+  val minCount: Int = 1,
+  val maxCount: Int = 1,
+  val options: List<Option>
+)
+
+data class Option(
+  val id: Long?,
+  val name: String,
+  val additionalPrice: BigDecimal = BigDecimal.ZERO,
+)

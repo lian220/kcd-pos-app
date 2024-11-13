@@ -23,7 +23,6 @@ class ProductServiceImpl(
   private val objectMapper: ObjectMapper
 ): ProductUseCase {
 
-  @Transactional
   override fun createProduct(product: Product) {
     categoryRepository.findByIdOrNull(product.categoryId)
       ?.let {
@@ -40,24 +39,6 @@ class ProductServiceImpl(
       ?: throw NoSuchProductException("productId: ${id}")
   }
 
-  @Transactional(readOnly = true)
-  override fun getAllProductsByCategory(categoryId: Long): List<ProductRes> {
-    return productRepository.findAllBySearchCondition(categoryId)
-  }
-
-  @Transactional(readOnly = true)
-  override fun getAllProducts(): List<ProductRes> {
-    return productRepository.findAllBySearchCondition(null)
-  }
-
-  override fun deleteProduct(id: Long): Any {
-    TODO("Not yet implemented")
-  }
-
-  override fun updateProduct(id: Long, product: Product): Any {
-    TODO("Not yet implemented")
-  }
-
   private fun convertEntityToProduct(product: ProductEntity): ProductRes {
     val category = objectMapper.convertValue(product.categoryEntity, Category::class.java)
     val optionGroup = product.optionGroup?.let { objectMapper.convertValue(product.optionGroup, OptionGroup::class.java) }
@@ -71,5 +52,21 @@ class ProductServiceImpl(
       isTaxIncluded = product.isTaxIncluded,
       status = product.status
     )
+  }
+
+  override fun getAllProductsByCategory(categoryId: Long): List<Product> {
+    TODO("Not yet implemented")
+  }
+
+  override fun getAllProducts(): List<Product> {
+    TODO("Not yet implemented")
+  }
+
+  override fun deleteProduct(id: Long): Any {
+    TODO("Not yet implemented")
+  }
+
+  override fun updateProduct(id: Long, product: Product): Any {
+    TODO("Not yet implemented")
   }
 }
