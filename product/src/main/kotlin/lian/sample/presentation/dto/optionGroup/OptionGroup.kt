@@ -8,7 +8,7 @@ data class OptionGroup(
   val isRequired: String = "Y",
   val minCount: Int = 1,
   val maxCount: Int = 1,
-  val options: List<Option>
+  var options: List<Option>?
 )
 
 data class Option(

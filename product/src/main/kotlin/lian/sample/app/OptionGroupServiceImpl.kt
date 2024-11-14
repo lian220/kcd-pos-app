@@ -21,7 +21,7 @@ class OptionGroupServiceImpl(
       name = optionGroup.name,
     ))
 
-    optionGroup.options.forEach({option ->
+    optionGroup.options?.forEach({option ->
       val optionEntity = OptionEntity(
         name = option.name,
         optionGroup = optionGroupEntity
