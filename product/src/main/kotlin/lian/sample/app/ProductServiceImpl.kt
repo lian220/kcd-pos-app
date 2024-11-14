@@ -1,13 +1,17 @@
 package lian.sample.app
 
+import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.ObjectMapper
+import lian.sample.app.dto.SearchConditionDto
 import lian.sample.domain.CategoryRepository
 import lian.sample.domain.OptionGroupRepository
+import lian.sample.domain.OptionRepository
 import lian.sample.domain.ProductRepository
 import lian.sample.domain.entity.ProductEntity
 import lian.sample.exception.NoSuchCategoryException
 import lian.sample.exception.NoSuchProductException
 import lian.sample.presentation.dto.category.Category
+import lian.sample.presentation.dto.optionGroup.Option
 import lian.sample.presentation.dto.optionGroup.OptionGroup
 import lian.sample.presentation.dto.product.Product
 import lian.sample.presentation.dto.product.ProductRes
@@ -20,6 +24,7 @@ class ProductServiceImpl(
   private val productRepository: ProductRepository,
   private val categoryRepository: CategoryRepository,
   private val optionGroupRepository: OptionGroupRepository,
+  private val optionRepository: OptionRepository,
   private val objectMapper: ObjectMapper
 ): ProductUseCase {
 
@@ -41,13 +46,8 @@ class ProductServiceImpl(
   }
 
   @Transactional(readOnly = true)
-  override fun getAllProductsByCategory(categoryId: Long): List<ProductRes> {
-    return productRepository.findAllBySearchCondition(categoryId)
-  }
-
-  @Transactional(readOnly = true)
-  override fun getAllProducts(): List<ProductRes> {
-    return productRepository.findAllBySearchCondition(null)
+  override fun getAllProducts(categoryId: Long?, productIds: List<Long>?): List<ProductRes> {
+    return productRepository.findAllBySearchCondition(SearchConditionDto(categoryId, productIds))
   }
 
   override fun deleteProduct(id: Long): Any {
@@ -60,7 +60,12 @@ class ProductServiceImpl(
 
   private fun convertEntityToProduct(product: ProductEntity): ProductRes {
     val category = objectMapper.convertValue(product.categoryEntity, Category::class.java)
-    val optionGroup = product.optionGroup?.let { objectMapper.convertValue(product.optionGroup, OptionGroup::class.java) }
+    val optionGroup = product.optionGroup?.let {
+      val options = optionRepository.findAllByOptionGroup(product.optionGroup)
+      val optionGroupDto = objectMapper.convertValue(product.optionGroup, OptionGroup::class.java)
+      optionGroupDto.options = objectMapper.convertValue(options, object : TypeReference<List<Option>>() {})
+      optionGroupDto
+    }
     return ProductRes(
       id = product.id,
       name = product.name,
