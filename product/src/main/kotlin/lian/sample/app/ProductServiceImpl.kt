@@ -2,6 +2,7 @@ package lian.sample.app
 
 import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.ObjectMapper
+import lian.sample.app.dto.SearchConditionDto
 import lian.sample.domain.CategoryRepository
 import lian.sample.domain.OptionGroupRepository
 import lian.sample.domain.OptionRepository
@@ -45,13 +46,8 @@ class ProductServiceImpl(
   }
 
   @Transactional(readOnly = true)
-  override fun getAllProductsByCategory(categoryId: Long): List<ProductRes> {
-    return productRepository.findAllBySearchCondition(categoryId)
-  }
-
-  @Transactional(readOnly = true)
-  override fun getAllProducts(): List<ProductRes> {
-    return productRepository.findAllBySearchCondition(null)
+  override fun getAllProducts(categoryId: Long?, productIds: List<Long>?): List<ProductRes> {
+    return productRepository.findAllBySearchCondition(SearchConditionDto(categoryId, productIds))
   }
 
   override fun deleteProduct(id: Long): Any {
