@@ -20,49 +20,49 @@ import javax.sql.DataSource
 @EnableTransactionManagement
 @EnableJpaRepositories(
   basePackages = ["lian.sample.domain"],
-  entityManagerFactoryRef = "productEntityManagerFactory",
-  transactionManagerRef = "productTransactionManager"
+  entityManagerFactoryRef = "orderEntityManagerFactory",
+  transactionManagerRef = "orderTransactionManager"
 )
-class ProductDataSourceConfiguration(
+class OrderDataSourceConfiguration(
   private val jpaProperties: JpaProperties
 ) {
 
   @Bean
-  @ConfigurationProperties("datasource.product.master")
-  fun productMasterDatasource(): DataSource = DataSourceBuilder.create().type(HikariDataSource::class.java).build()
+  @ConfigurationProperties("datasource.order.master")
+  fun orderMasterDatasource(): DataSource = DataSourceBuilder.create().type(HikariDataSource::class.java).build()
 
   @Bean
-  @ConfigurationProperties("datasource.product.slave")
-  fun productSlaveDatasource(): DataSource = DataSourceBuilder.create().type(HikariDataSource::class.java).build()
+  @ConfigurationProperties("datasource.order.slave")
+  fun orderSlaveDatasource(): DataSource = DataSourceBuilder.create().type(HikariDataSource::class.java).build()
 
   @Bean
-  fun productRoutingDataSource() = MasterSlaveRoutingDataSource().apply {
+  fun orderRoutingDataSource() = MasterSlaveRoutingDataSource().apply {
     setTargetDataSources(hashMapOf<Any, Any>(
-      "master" to productMasterDatasource(),
-      "slave" to productSlaveDatasource()))
-    setDefaultTargetDataSource(productMasterDatasource())
+      "master" to orderMasterDatasource(),
+      "slave" to orderSlaveDatasource()))
+    setDefaultTargetDataSource(orderMasterDatasource())
   }
 
   @Primary
   @Bean
-  fun productLazyDataSource() = LazyConnectionDataSourceProxy(productRoutingDataSource())
+  fun orderLazyDataSource() = LazyConnectionDataSourceProxy(orderRoutingDataSource())
 
   @Primary
-  @Bean("productEntityManagerFactory")
-  fun productEntityManagerFactory() = LocalContainerEntityManagerFactoryBean().apply {
-    dataSource = productLazyDataSource()
+  @Bean("orderEntityManagerFactory")
+  fun orderEntityManagerFactory() = LocalContainerEntityManagerFactoryBean().apply {
+    dataSource = orderLazyDataSource()
     setPackagesToScan("lian.sample.domain")
     jpaVendorAdapter = HibernateJpaVendorAdapter().apply {
       setShowSql(jpaProperties.isShowSql)
       setGenerateDdl(jpaProperties.isGenerateDdl)
       setJpaPropertyMap(jpaProperties.properties)
     }
-    persistenceUnitName = "productEntityManager"
+    persistenceUnitName = "orderEntityManager"
     afterPropertiesSet()
   }
 
   @Primary
-  @Bean("productTransactionManager")
-  fun productTransactionManager() = JpaTransactionManager(productEntityManagerFactory().`object`!!)
+  @Bean("orderTransactionManager")
+  fun orderTransactionManager() = JpaTransactionManager(orderEntityManagerFactory().`object`!!)
 }
 

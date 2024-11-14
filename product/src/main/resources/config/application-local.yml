@@ -21,4 +21,4 @@ datasource:
       pool-name: HikariPool-item-slave
       maximum-pool-size: 2
 
-server.port: 8081
+server.port: 8082
