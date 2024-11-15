@@ -3,7 +3,7 @@ package lian.sample.presentation
 import io.swagger.v3.oas.annotations.Operation
 import jakarta.validation.Valid
 import lian.sample.app.OrderUseCase
-import lian.sample.presentation.dto.order.OrderInfo
+import lian.sample.presentation.dto.order.Order
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
@@ -17,7 +17,7 @@ class OrderController(
 ) {
   @Operation(summary = "주문 등록", description = "주문을 등록합니다.")
   @PostMapping
-  fun createProduct(@RequestBody @Valid orderInfo: OrderInfo) =
-    ResponseEntity.ok(productUseCase.createOrder(orderInfo))
+  fun createProduct(@RequestBody @Valid order: Order) =
+    ResponseEntity.ok(productUseCase.createOrder(order))
 
 }

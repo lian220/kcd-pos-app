@@ -1,6 +1,7 @@
 package lian.sample.domain.entity
 
 import jakarta.persistence.*
+import java.math.BigDecimal
 
 @Entity
 @Table(name = "DISCOUNT", schema = "order")
@@ -14,5 +15,5 @@ data class DiscountEntity(
   val discountType: String,
 
   @Column(name = "DISCOUNT_VALUE", nullable = false)
-  val discountValue: Double
+  val discountValue: BigDecimal
 )

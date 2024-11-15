@@ -1,7 +1,9 @@
 package client.product
+import client.product.dto.ProductRes
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
+import org.springframework.web.bind.annotation.RequestParam
 
 @FeignClient(
   value = "product",
@@ -10,12 +12,12 @@ import org.springframework.web.bind.annotation.PathVariable
 interface ProductApiClient {
 
   @GetMapping("/products/{id}")
-  fun getProduct(@PathVariable id: Long)
+  fun getProduct(@PathVariable id: Long): List<ProductRes>
 
   @GetMapping("/products")
-  fun getAllProducts()
-
-  @GetMapping("/products/{categoryId}/category")
-  fun getAllProductsByCategory(@PathVariable categoryId: Long)
+  fun getAllProducts(
+    @RequestParam("catalogId") catalogId: Long?,
+    @RequestParam("productIds") productIds: List<Long>?
+  ): List<ProductRes>
 
 }

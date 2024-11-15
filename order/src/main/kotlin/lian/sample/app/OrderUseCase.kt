@@ -1,7 +1,7 @@
 package lian.sample.app
 
-import lian.sample.presentation.dto.order.OrderInfo
+import lian.sample.presentation.dto.order.Order
 
 interface OrderUseCase {
-  fun createOrder(orderInfo: OrderInfo)
+  fun createOrder(order: Order)
 }

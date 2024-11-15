@@ -1,6 +1,7 @@
 package lian.sample.domain.entity
 
 import jakarta.persistence.*
+import java.math.BigDecimal
 
 @Entity
 @Table(name = "ORDER_ITEM_OPTION", schema = "order")
@@ -18,7 +19,7 @@ data class OrderItemOptionEntity(
   val optionId: Long,
 
   @Column(name = "OPTION_PRICE", nullable = false)
-  val optionPrice: Double = 0.0,
+  val optionPrice: BigDecimal = BigDecimal(0),
 
   @Column(name = "IS_DELETED", nullable = false)
   val isDeleted: Char = 'N'

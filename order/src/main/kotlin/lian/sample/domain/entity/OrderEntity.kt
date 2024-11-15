@@ -7,7 +7,7 @@ import java.math.BigDecimal
 import java.time.Instant
 
 @Entity
-@Table(name = "ORDER", schema = "order")
+@Table(name = "`ORDER`", schema = "order")
 data class OrderEntity(
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,7 +32,7 @@ data class OrderEntity(
   val discount: DiscountEntity? = null,
 
   @Column(name = "TOTAL_AMOUNT", nullable = false)
-  val totalAmount: Double,
+  val totalAmount: BigDecimal,
 
   @Column(name = "IS_DELETED", nullable = false)
   val isDeleted: Char = 'N',

@@ -6410,3 +6410,1108 @@ feign.FeignException$NotFound: [404] during [GET] to [http://localhost:8082/api/
 [2024-11-14 12:44:19] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-slave - Added connection com.mysql.cj.jdbc.ConnectionImpl@43b41a3b
 [2024-11-14 12:44:19] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-slave - Start completed.
 [2024-11-14 12:48:27] INFO org.springdoc.api.AbstractOpenApiResource(AbstractOpenApiResource.java:371) - Init duration for springdoc-openapi is: 187 ms
+[2024-11-15 08:25:26] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 7.0.1.Final
+[2024-11-15 08:25:26] INFO lian.sample.ProductApplicationKt(StartupInfoLogger.java:51) - Starting ProductApplicationKt using Java 17.0.9 with PID 58601 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/product/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 08:25:26] INFO lian.sample.ProductApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 08:25:26] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 08:25:26] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 08:25:26] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 08:25:27] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 31 ms. Found 4 JPA repository interfaces.
+[2024-11-15 08:25:27] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+[2024-11-15 08:25:27] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+[2024-11-15 08:25:27] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 08:25:27] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 08:25:27] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 08:25:27] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 746 ms
+[2024-11-15 08:25:27] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 08:25:27] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@28e4f3a0
+[2024-11-15 08:25:27] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 08:25:27] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: productEntityManager]
+[2024-11-15 08:25:27] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 08:25:27] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 08:25:28] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 08:25:28] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'productEntityManager'
+[2024-11-15 08:25:28] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: productEntityManager]
+[2024-11-15 08:25:28] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 08:25:28] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 08:25:28] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'productEntityManager'
+[2024-11-15 08:25:28] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 08:25:28] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:59) - LiveReload server is running on port 35729
+[2024-11-15 08:25:28] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+[2024-11-15 08:25:28] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+[2024-11-15 08:25:28] INFO lian.sample.ProductApplicationKt(StartupInfoLogger.java:57) - Started ProductApplicationKt in 2.354 seconds (process running for 2.863)
+[2024-11-15 08:25:33] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 08:25:33] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 58673 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 08:25:33] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 08:25:33] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 08:25:33] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 08:25:34] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 08:25:34] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 25 ms. Found 3 JPA repository interfaces.
+[2024-11-15 08:25:34] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=f6c73821-5814-3209-8eeb-64cf8ff1d509
+[2024-11-15 08:25:34] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 08:25:35] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 08:25:35] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:25:35] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 08:25:35] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 08:25:35] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 08:25:35] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 2160 ms
+[2024-11-15 08:25:35] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 08:25:35] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@155bae34
+[2024-11-15 08:25:35] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 08:25:35] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 08:25:35] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 08:25:36] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 08:25:36] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 08:25:36] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 08:25:36] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 08:25:36] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 08:25:36] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 08:25:36] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 08:25:36] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 08:25:36] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 08:25:37] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:25:37] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 08:25:37] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 4.419 seconds (process running for 5.533)
+[2024-11-15 08:30:21] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+[2024-11-15 08:30:21] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:30:21] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2024-11-15 08:30:21] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:30:21] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:30:21] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 08:30:21] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 08:30:21] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 08:30:21] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 58673 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 08:30:21] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 08:30:21] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 08:30:21] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 6 ms. Found 3 JPA repository interfaces.
+[2024-11-15 08:30:21] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=f6c73821-5814-3209-8eeb-64cf8ff1d509
+[2024-11-15 08:30:21] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 08:30:21] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 08:30:21] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:30:21] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 08:30:21] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 08:30:21] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 08:30:21] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 263 ms
+[2024-11-15 08:30:21] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 08:30:21] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@75bdcc05
+[2024-11-15 08:30:21] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 08:30:22] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 08:30:22] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 08:30:22] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 08:30:22] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 08:30:22] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 08:30:22] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 08:30:22] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 08:30:22] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 08:30:22] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 08:30:22] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 08:30:22] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:30:22] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 08:30:22] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 0.69 seconds (process running for 290.659)
+[2024-11-15 08:30:22] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2024-11-15 08:30:23] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 7 class path changes (7 additions, 0 deletions, 0 modifications)
+[2024-11-15 08:30:23] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:30:23] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2024-11-15 08:30:23] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:30:23] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:30:23] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 08:30:23] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 08:30:23] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 08:30:23] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 58673 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 08:30:23] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 08:30:23] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 08:30:23] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 4 ms. Found 3 JPA repository interfaces.
+[2024-11-15 08:30:23] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=f6c73821-5814-3209-8eeb-64cf8ff1d509
+[2024-11-15 08:30:23] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 08:30:23] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 08:30:23] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:30:23] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 08:30:23] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 08:30:23] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 08:30:23] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 189 ms
+[2024-11-15 08:30:24] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 08:30:24] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@329af41c
+[2024-11-15 08:30:24] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 08:30:24] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 08:30:24] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 08:30:24] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 08:30:24] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 08:30:24] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 08:30:24] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 08:30:24] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 08:30:24] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 08:30:24] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 08:30:24] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 08:30:24] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 08:30:24] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 08:30:24] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 0.493 seconds (process running for 292.601)
+[2024-11-15 08:30:24] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2024-11-15 09:16:23] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:16:23] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:16:23] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:16:28] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 09:16:28] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 62428 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:16:28] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:16:28] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 09:16:28] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 09:16:28] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:16:28] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:16:29] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:16:29] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:16:29] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:16:29] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:16:29] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:16:29] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:16:29] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:16:29] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 1315 ms
+[2024-11-15 09:16:29] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:16:30] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@4466c1f0
+[2024-11-15 09:16:30] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:16:30] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:16:30] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 09:16:30] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:16:30] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:16:30] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:16:30] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:16:30] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:16:30] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:16:30] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:16:31] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:16:31] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:16:31] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:16:31] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:16:31] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 3.632 seconds (process running for 4.342)
+[2024-11-15 09:16:42] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 09:16:42] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 09:16:42] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2024-11-15 09:16:42] WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver(AbstractHandlerExceptionResolver.java:207) - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Instantiation of [simple type, class lian.sample.presentation.dto.order.Order] value failed for JSON property orderItems due to missing (therefore NULL) value for creator parameter orderItems which is a non-nullable type]
+[2024-11-15 09:18:06] INFO org.springdoc.api.AbstractOpenApiResource(AbstractOpenApiResource.java:371) - Init duration for springdoc-openapi is: 197 ms
+[2024-11-15 09:19:04] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 09:19:04] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 09:19:04] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 2 ms
+[2024-11-15 09:19:05] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-slave - Starting...
+[2024-11-15 09:19:05] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-slave - Added connection com.mysql.cj.jdbc.ConnectionImpl@30ce5c49
+[2024-11-15 09:19:05] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-slave - Start completed.
+[2024-11-15 09:19:56] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-item-master - Thread starvation or clock leap detected (housekeeper delta=56s441ms).
+[2024-11-15 09:19:56] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet](DirectJDKLog.java:175) - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented] with root cause
+kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
+	at lian.sample.app.CalculateServiceImpl.calculateProducts(CalculateServiceImpl.kt:9) ~[main/:?]
+	at lian.sample.app.OrderServiceImpl.createOrder(OrderServiceImpl.kt:15) ~[main/:?]
+	at lian.sample.presentation.OrderController.createProduct(OrderController.kt:21) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547) ~[jakarta.servlet-api-6.0.0.jar:6.0.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614) ~[jakarta.servlet-api-6.0.0.jar:6.0.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[2024-11-15 09:20:44] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 37 class path changes (0 additions, 0 deletions, 37 modifications)
+[2024-11-15 09:20:44] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:20:44] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2024-11-15 09:20:44] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2024-11-15 09:20:44] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:20:44] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:20:44] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:20:44] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:20:44] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:20:44] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 62428 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:20:44] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:20:44] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:20:44] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 5 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:20:44] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:20:44] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:20:44] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:20:44] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:20:44] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:20:44] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:20:44] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:20:44] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 215 ms
+[2024-11-15 09:20:44] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:20:44] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@34cbe49a
+[2024-11-15 09:20:44] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:20:44] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:20:44] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:20:44] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:20:44] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:20:44] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:20:44] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:20:44] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:20:44] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:20:44] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:20:44] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:20:44] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:20:44] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:20:44] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 0.596 seconds (process running for 257.647)
+[2024-11-15 09:20:44] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2024-11-15 09:21:02] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+[2024-11-15 09:21:02] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:21:02] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2024-11-15 09:21:02] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:21:02] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:21:02] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:21:02] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:21:02] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:21:02] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 62428 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:21:02] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:21:02] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:21:02] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 4 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:21:02] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:21:02] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:21:02] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:21:02] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:21:02] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:21:02] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:21:02] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:21:02] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 179 ms
+[2024-11-15 09:21:02] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:21:02] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@63077289
+[2024-11-15 09:21:02] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:21:02] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:21:02] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:21:02] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:21:02] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:21:02] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:21:02] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:21:02] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:21:02] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:21:02] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:21:02] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:21:02] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:21:02] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:21:02] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 0.466 seconds (process running for 275.529)
+[2024-11-15 09:21:02] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2024-11-15 09:26:01] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:26:01] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:26:01] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:26:05] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 09:26:05] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 63143 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:26:05] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:26:05] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 09:26:05] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 09:26:05] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:26:05] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:26:06] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:26:06] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:26:06] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:26:06] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:26:06] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:26:06] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:26:06] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:26:06] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 1159 ms
+[2024-11-15 09:26:06] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:26:06] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a20ecd3
+[2024-11-15 09:26:06] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:26:06] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:26:06] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 09:26:07] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:26:07] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:26:07] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:26:07] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:26:07] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:26:07] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:26:07] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:26:07] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:26:07] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:26:07] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:26:07] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:26:07] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 2.717 seconds (process running for 3.595)
+[2024-11-15 09:28:50] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+[2024-11-15 09:28:50] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:28:50] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2024-11-15 09:28:50] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:28:50] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:28:50] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:28:50] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:28:50] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:28:50] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 63143 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:28:50] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:28:50] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:28:50] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 6 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:28:50] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:28:50] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:28:50] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:28:50] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:28:50] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:28:50] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:28:50] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:28:50] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 223 ms
+[2024-11-15 09:28:50] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:28:50] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@64c97ebd
+[2024-11-15 09:28:50] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:28:50] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:28:50] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:28:50] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:28:50] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:28:50] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:28:50] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:28:50] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:28:50] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:28:50] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:28:50] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:28:51] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:28:51] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:28:51] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 0.532 seconds (process running for 166.902)
+[2024-11-15 09:28:51] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2024-11-15 09:30:33] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+[2024-11-15 09:30:33] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:30:33] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2024-11-15 09:30:33] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:30:33] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:30:33] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:30:33] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:30:33] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:30:34] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 63143 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:30:34] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:30:34] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:30:34] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 4 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:30:34] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:30:34] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:30:34] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:30:34] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:30:34] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:30:34] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:30:34] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:30:34] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 189 ms
+[2024-11-15 09:30:34] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:30:34] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@201d5536
+[2024-11-15 09:30:34] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:30:34] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:30:34] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:30:34] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:30:34] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:30:34] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:30:34] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:30:34] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:30:34] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:30:34] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:30:34] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:30:34] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:30:34] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:30:34] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 0.491 seconds (process running for 270.3)
+[2024-11-15 09:30:34] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2024-11-15 09:30:54] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+[2024-11-15 09:30:54] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:30:54] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2024-11-15 09:30:54] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:30:54] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:30:54] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:30:54] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:30:54] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:30:54] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 63143 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:30:54] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:30:54] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:30:54] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 4 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:30:54] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:30:54] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:30:54] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:30:54] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:30:54] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:30:54] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:30:54] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:30:54] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 181 ms
+[2024-11-15 09:30:54] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:30:54] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@67d7c0d4
+[2024-11-15 09:30:54] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:30:54] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:30:54] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:30:54] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:30:54] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:30:54] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:30:54] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:30:54] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:30:54] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:30:54] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:30:54] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:30:54] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:30:54] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:30:54] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 0.45 seconds (process running for 290.406)
+[2024-11-15 09:30:54] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2024-11-15 09:31:26] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:31:26] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:31:26] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:34:05] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 09:34:05] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 63796 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:34:05] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:34:05] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 09:34:05] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 09:34:05] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:34:05] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:34:06] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:34:06] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:34:06] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:34:06] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:34:06] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:34:06] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:34:06] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:34:06] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 1409 ms
+[2024-11-15 09:34:06] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:34:07] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@20788a0b
+[2024-11-15 09:34:07] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:34:07] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:34:07] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 09:34:07] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:34:07] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:34:07] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:34:07] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:34:07] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:34:07] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:34:07] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:34:07] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:34:08] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:34:08] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:34:08] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:34:08] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 3.368 seconds (process running for 3.934)
+[2024-11-15 09:34:36] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 09:34:36] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 09:34:36] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2024-11-15 09:38:37] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-item-master - Thread starvation or clock leap detected (housekeeper delta=3m58s32ms).
+[2024-11-15 09:38:37] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:38:37] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:38:37] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:38:52] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 09:38:52] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 64204 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:38:52] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:38:52] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 09:38:52] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 09:38:52] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:38:52] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:38:52] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:38:52] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:38:53] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:38:53] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:38:53] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:38:53] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:38:53] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:38:53] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 1025 ms
+[2024-11-15 09:38:53] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:38:53] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cae573f
+[2024-11-15 09:38:53] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:38:53] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:38:53] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 09:38:53] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:38:54] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:38:54] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:38:54] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:38:54] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:38:54] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:38:54] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:38:54] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:38:54] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:38:54] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:38:54] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:38:54] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 2.782 seconds (process running for 3.249)
+[2024-11-15 09:39:04] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 09:39:04] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 09:39:04] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2024-11-15 09:41:00] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-item-master - Thread starvation or clock leap detected (housekeeper delta=2m6s959ms).
+[2024-11-15 09:41:00] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:41:00] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:41:00] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:41:03] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 09:41:04] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 64382 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:41:04] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:41:04] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 09:41:04] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 09:41:04] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:41:04] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:41:04] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:41:04] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:41:05] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:41:05] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:41:05] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:41:05] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:41:05] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:41:05] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 1214 ms
+[2024-11-15 09:41:05] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:41:05] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@128b31c4
+[2024-11-15 09:41:05] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:41:05] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:41:05] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 09:41:05] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:41:06] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:41:06] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:41:06] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:41:06] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:41:06] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:41:06] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:41:06] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:41:06] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:41:06] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:41:06] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:41:06] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 2.986 seconds (process running for 3.65)
+[2024-11-15 09:41:11] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 09:41:11] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 09:41:11] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 0 ms
+[2024-11-15 09:44:52] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-item-master - Thread starvation or clock leap detected (housekeeper delta=3m47s285ms).
+[2024-11-15 09:44:53] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:44:53] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:44:53] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:45:03] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 09:45:03] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 64697 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:45:03] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:45:03] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 09:45:03] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 09:45:04] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:45:04] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:45:04] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:45:04] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:45:04] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:45:04] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:45:04] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:45:04] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:45:04] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:45:04] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 1280 ms
+[2024-11-15 09:45:04] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:45:05] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ee6df98
+[2024-11-15 09:45:05] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:45:05] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:45:05] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 09:45:05] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:45:05] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:45:05] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:45:05] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:45:05] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:45:05] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:45:05] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:45:05] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:45:05] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:45:06] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:45:06] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:45:06] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 3.048 seconds (process running for 3.635)
+[2024-11-15 09:45:11] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 09:45:11] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 09:45:11] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2024-11-15 09:45:12] WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver(AbstractHandlerExceptionResolver.java:207) - Resolved [lian.sample.exception.PriceMismatchException: 상품의 가격이 다릅니다. (productId: 1)]
+[2024-11-15 09:46:51] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-item-master - Thread starvation or clock leap detected (housekeeper delta=1m45s768ms).
+[2024-11-15 09:46:51] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:46:51] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:46:51] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:46:56] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 09:46:56] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 64837 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:46:56] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:46:56] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 09:46:56] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 09:46:57] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:46:57] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:46:57] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:46:57] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:46:57] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:46:57] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:46:57] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:46:57] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:46:57] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:46:57] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 903 ms
+[2024-11-15 09:46:57] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:46:57] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@444eaae2
+[2024-11-15 09:46:57] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:46:57] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:46:57] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 09:46:58] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:46:58] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:46:58] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:46:58] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:46:58] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:46:58] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:46:58] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:46:58] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:46:58] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:46:59] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:46:59] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:46:59] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 2.823 seconds (process running for 3.318)
+[2024-11-15 09:47:04] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 09:47:04] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 09:47:04] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2024-11-15 09:47:11] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:47:11] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:47:11] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:47:13] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 09:47:13] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 64878 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:47:13] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:47:13] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 09:47:13] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 09:47:13] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:47:13] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:47:13] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:47:14] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:47:14] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:47:14] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:47:14] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:47:14] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:47:14] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:47:14] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 1000 ms
+[2024-11-15 09:47:14] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:47:14] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@68b50e8d
+[2024-11-15 09:47:14] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:47:14] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:47:14] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 09:47:14] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:47:15] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:47:15] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:47:15] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:47:15] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:47:15] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:47:15] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:47:15] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:47:15] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:47:15] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:47:15] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:47:15] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 2.707 seconds (process running for 3.184)
+[2024-11-15 09:47:19] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 09:47:19] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 09:47:19] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2024-11-15 09:47:32] WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver(AbstractHandlerExceptionResolver.java:207) - Resolved [lian.sample.exception.PriceMismatchException: 상품의 가격이 다릅니다. (상품 가격이 일치하지 않습니다.)]
+[2024-11-15 09:49:08] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:49:08] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:49:08] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:49:16] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'productEntityManager'
+[2024-11-15 09:49:16] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-slave - Shutdown initiated...
+[2024-11-15 09:49:16] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-slave - Shutdown completed.
+[2024-11-15 09:49:16] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:49:16] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:50:20] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 7.0.1.Final
+[2024-11-15 09:50:20] INFO lian.sample.ProductApplicationKt(StartupInfoLogger.java:51) - Starting ProductApplicationKt using Java 17.0.9 with PID 65177 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/product/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:50:20] INFO lian.sample.ProductApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:50:20] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 09:50:20] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 09:50:20] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:50:20] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 20 ms. Found 4 JPA repository interfaces.
+[2024-11-15 09:50:21] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+[2024-11-15 09:50:21] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+[2024-11-15 09:50:21] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:50:21] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:50:21] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:50:21] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 774 ms
+[2024-11-15 09:50:21] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:50:21] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@623d5fd9
+[2024-11-15 09:50:21] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:50:21] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: productEntityManager]
+[2024-11-15 09:50:21] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 09:50:21] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:50:21] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:50:21] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'productEntityManager'
+[2024-11-15 09:50:21] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: productEntityManager]
+[2024-11-15 09:50:21] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:50:21] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:50:21] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'productEntityManager'
+[2024-11-15 09:50:22] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:50:22] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:59) - LiveReload server is running on port 35729
+[2024-11-15 09:50:22] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+[2024-11-15 09:50:22] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+[2024-11-15 09:50:22] INFO lian.sample.ProductApplicationKt(StartupInfoLogger.java:57) - Started ProductApplicationKt in 2.261 seconds (process running for 2.696)
+[2024-11-15 09:51:06] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 09:51:06] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 65259 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:51:06] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:51:06] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 09:51:06] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 09:51:06] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:51:06] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:51:06] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:51:06] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:51:07] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:51:07] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:51:07] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:51:07] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:51:07] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:51:07] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 1099 ms
+[2024-11-15 09:51:07] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:51:07] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@aa67174
+[2024-11-15 09:51:07] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:51:07] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:51:07] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 09:51:07] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:51:08] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:51:08] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:51:08] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:51:08] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:51:08] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:51:08] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:51:08] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:51:08] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:51:08] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:51:08] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:51:08] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 2.718 seconds (process running for 3.256)
+[2024-11-15 09:51:16] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 09:51:16] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 09:51:16] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2024-11-15 09:51:16] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 09:51:16] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 09:51:16] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2024-11-15 09:51:16] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-slave - Starting...
+[2024-11-15 09:51:17] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-slave - Added connection com.mysql.cj.jdbc.ConnectionImpl@19ab183c
+[2024-11-15 09:51:17] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-slave - Start completed.
+[2024-11-15 09:51:43] WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver(AbstractHandlerExceptionResolver.java:207) - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<kotlin.Unit> lian.sample.presentation.OrderController.createProduct(lian.sample.presentation.dto.order.Order): [Field error in object 'order' on field 'orderStatus': rejected value [PENDING1]; codes [ValueOfEnum.order.orderStatus,ValueOfEnum.orderStatus,ValueOfEnum.java.lang.String,ValueOfEnum]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [order.orderStatus,orderStatus]; arguments []; default message [orderStatus],class lian.sample.presentation.dto.type.OrderStatus]; default message [주문상태가 올바르지 않습니다.]] ]
+[2024-11-15 09:56:31] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+[2024-11-15 09:56:31] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:56:31] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2024-11-15 09:56:31] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2024-11-15 09:56:31] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:56:31] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:56:31] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:56:31] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:56:31] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:56:31] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 65259 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:56:31] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:56:31] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:56:31] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 4 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:56:31] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:56:31] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:56:31] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:56:31] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:56:31] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:56:31] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:56:31] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:56:31] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 241 ms
+[2024-11-15 09:56:31] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:56:31] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d8c7723
+[2024-11-15 09:56:31] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:56:31] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:56:31] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:56:32] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:56:32] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:56:32] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:56:32] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:56:32] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:56:32] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:56:32] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:56:32] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:56:32] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:56:32] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:56:32] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 0.572 seconds (process running for 326.784)
+[2024-11-15 09:56:32] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2024-11-15 09:57:09] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 39 class path changes (0 additions, 0 deletions, 39 modifications)
+[2024-11-15 09:57:09] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:57:09] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2024-11-15 09:57:09] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:57:09] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:57:09] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:57:09] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 09:57:09] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 09:57:09] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 65259 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 09:57:09] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 09:57:09] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 09:57:09] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 4 ms. Found 3 JPA repository interfaces.
+[2024-11-15 09:57:09] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 09:57:09] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 09:57:09] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 09:57:09] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:57:09] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 09:57:09] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 09:57:09] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 09:57:09] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 236 ms
+[2024-11-15 09:57:09] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 09:57:09] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b6b9fce
+[2024-11-15 09:57:09] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 09:57:09] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:57:09] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:57:09] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:57:09] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:57:09] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 09:57:09] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 09:57:09] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 09:57:09] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 09:57:09] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 09:57:09] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 09:57:09] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 09:57:09] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 09:57:09] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 0.612 seconds (process running for 364.314)
+[2024-11-15 09:57:09] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2024-11-15 10:01:24] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 39 class path changes (0 additions, 0 deletions, 39 modifications)
+[2024-11-15 10:01:24] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 10:01:24] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2024-11-15 10:01:24] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-9090"]
+[2024-11-15 10:01:24] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-9090"]
+[2024-11-15 10:01:24] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 10:01:24] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 10:01:24] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 10:01:24] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 65259 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 10:01:24] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 10:01:24] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 10:01:24] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 5 ms. Found 3 JPA repository interfaces.
+[2024-11-15 10:01:24] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ab35e5c5-3023-363f-b042-cf7a2fea39b8
+[2024-11-15 10:01:24] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 10:01:24] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 10:01:24] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 10:01:24] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 10:01:24] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 10:01:24] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 10:01:24] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 233 ms
+[2024-11-15 10:01:24] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 10:01:24] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@c84d21b
+[2024-11-15 10:01:24] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 10:01:24] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 10:01:24] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 10:01:24] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 10:01:24] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 10:01:24] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 10:01:24] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 10:01:24] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 10:01:24] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 10:01:24] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 10:01:24] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 10:01:24] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 10:01:24] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 10:01:24] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 0.538 seconds (process running for 619.415)
+[2024-11-15 10:01:24] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2024-11-15 10:06:25] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 10:06:25] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 10:06:25] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 10:06:30] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 10:06:30] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 66479 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 10:06:30] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 10:06:30] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 10:06:30] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 10:06:31] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 10:06:31] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 22 ms. Found 4 JPA repository interfaces.
+[2024-11-15 10:06:31] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ea2e1bf2-3e24-381b-a2fc-73bdae2369e1
+[2024-11-15 10:06:31] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 10:06:32] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 10:06:32] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 10:06:32] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 10:06:32] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 10:06:32] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 10:06:32] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 1115 ms
+[2024-11-15 10:06:32] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 10:06:32] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@36b37484
+[2024-11-15 10:06:32] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 10:06:32] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 10:06:32] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 10:06:32] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 10:06:32] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 10:06:32] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 10:06:32] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 10:06:32] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 10:06:32] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 10:06:32] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 10:06:33] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 10:06:33] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 10:06:33] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 10:06:33] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 10:06:33] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 3.129 seconds (process running for 3.811)
+[2024-11-15 10:06:41] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 10:06:41] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 10:06:41] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2024-11-15 10:06:45] WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper(SqlExceptionHelper.java:133) - SQL Error: 1064, SQLState: 42000
+[2024-11-15 10:06:45] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper(SqlExceptionHelper.java:138) - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER (CREATED_AT, CUSTOMER_ID, DISCOUNT_ID, IS_DELETED, ORDER_DATE, ORDER_STATU' at line 1
+[2024-11-15 10:06:45] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet](DirectJDKLog.java:175) - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER (CREATED_AT, CUSTOMER_ID, DISCOUNT_ID, IS_DELETED, ORDER_DATE, ORDER_STATU' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.0.1.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.0.1.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3342) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3980) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:737) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:721) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-6.0.8.jar:6.0.8]
+	at jdk.proxy4.$Proxy141.persist(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-6.0.8.jar:6.0.8]
+	at jdk.proxy4.$Proxy141.persist(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:610) ~[spring-data-jpa-3.0.5.jar:3.0.5]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288) ~[spring-data-commons-3.0.5.jar:3.0.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136) ~[spring-data-commons-3.0.5.jar:3.0.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120) ~[spring-data-commons-3.0.5.jar:3.0.5]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.0.5.jar:3.0.5]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.0.5.jar:3.0.5]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.0.5.jar:3.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168) ~[spring-data-commons-3.0.5.jar:3.0.5]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143) ~[spring-data-commons-3.0.5.jar:3.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:77) ~[spring-data-commons-3.0.5.jar:3.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.0.8.jar:6.0.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391) ~[spring-tx-6.0.8.jar:6.0.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163) ~[spring-data-jpa-3.0.5.jar:3.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.data.repository.core.support.MethodInvocationValidator.invoke(MethodInvocationValidator.java:94) ~[spring-data-commons-3.0.5.jar:3.0.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.0.8.jar:6.0.8]
+	at jdk.proxy4.$Proxy146.save(Unknown Source) ~[?:?]
+	at lian.sample.app.OrderServiceImpl.saveOrder(OrderServiceImpl.kt:40) ~[main/:?]
+	at lian.sample.app.OrderServiceImpl.createOrder(OrderServiceImpl.kt:31) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-6.0.8.jar:6.0.8]
+	at lian.sample.app.OrderServiceImpl$$SpringCGLIB$$0.createOrder(<generated>) ~[main/:?]
+	at lian.sample.presentation.OrderController.createProduct(OrderController.kt:21) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547) ~[jakarta.servlet-api-6.0.0.jar:6.0.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614) ~[jakarta.servlet-api-6.0.0.jar:6.0.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[2024-11-15 10:08:23] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 10:08:23] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 10:08:23] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 10:08:28] INFO org.hibernate.validator.internal.util.Version(Version.java:21) - HV000001: Hibernate Validator 8.0.0.Final
+[2024-11-15 10:08:28] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:51) - Starting OrderApplicationKt using Java 17.0.9 with PID 66627 (/Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app/order/build/classes/kotlin/main started by imdoyeong in /Users/imdoyeong/Desktop/workSpace/mustit/kcd-pos-app)
+[2024-11-15 10:08:28] INFO lian.sample.OrderApplicationKt(SpringApplication.java:638) - The following 1 profile is active: "local"
+[2024-11-15 10:08:28] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-11-15 10:08:28] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor(DeferredLog.java:250) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-11-15 10:08:29] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-11-15 10:08:29] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+[2024-11-15 10:08:29] INFO org.springframework.cloud.context.scope.GenericScope(GenericScope.java:282) - BeanFactory id=ea2e1bf2-3e24-381b-a2fc-73bdae2369e1
+[2024-11-15 10:08:29] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker(PostProcessorRegistrationDelegate.java:409) - Bean 'client.product.ProductApiClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-11-15 10:08:30] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9090 (http)
+[2024-11-15 10:08:30] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9090"]
+[2024-11-15 10:08:30] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2024-11-15 10:08:30] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2024-11-15 10:08:30] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2024-11-15 10:08:30] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 1204 ms
+[2024-11-15 10:08:30] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-item-master - Starting...
+[2024-11-15 10:08:30] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-item-master - Added connection com.mysql.cj.jdbc.ConnectionImpl@28e568b9
+[2024-11-15 10:08:30] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-item-master - Start completed.
+[2024-11-15 10:08:30] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 10:08:30] INFO org.hibernate.Version(Version.java:44) - HHH000412: Hibernate ORM core version 6.1.7.Final
+[2024-11-15 10:08:30] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 10:08:31] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 10:08:31] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 10:08:31] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: orderEntityManager]
+[2024-11-15 10:08:31] INFO SQL dialect(DialectFactoryImpl.java:66) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2024-11-15 10:08:31] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-11-15 10:08:31] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 10:08:31] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-11-15 10:08:31] WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:62) - Unable to start LiveReload server
+[2024-11-15 10:08:32] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9090"]
+[2024-11-15 10:08:32] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 9090 (http) with context path ''
+[2024-11-15 10:08:32] INFO lian.sample.OrderApplicationKt(StartupInfoLogger.java:57) - Started OrderApplicationKt in 3.877 seconds (process running for 4.843)
+[2024-11-15 10:08:36] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-11-15 10:08:36] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2024-11-15 10:08:36] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2024-11-15 10:14:52] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'productEntityManager'
+[2024-11-15 10:14:52] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-slave - Shutdown initiated...
+[2024-11-15 10:14:52] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-slave - Shutdown completed.
+[2024-11-15 10:14:52] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 10:14:52] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
+[2024-11-15 10:14:52] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'orderEntityManager'
+[2024-11-15 10:14:52] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-item-master - Shutdown initiated...
+[2024-11-15 10:14:52] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-item-master - Shutdown completed.
