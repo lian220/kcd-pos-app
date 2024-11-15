@@ -2,11 +2,13 @@ package lian.sample.domain.entity
 
 import jakarta.persistence.*
 import lian.sample.jpa.BooleanToYNConverter
+import org.hibernate.annotations.DynamicUpdate
 import java.math.BigDecimal
 import java.time.Instant
 
 @Entity
 @Table(name = "PRODUCT")
+@DynamicUpdate
 data class ProductEntity(
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,6 +31,10 @@ data class ProductEntity(
   @Column(name = "STATUS", nullable = false, length = 20, columnDefinition = "VARCHAR(20) DEFAULT 'AVAILABLE'")
   val status: String = "AVAILABLE",
 
+  @Column(name = "IS_DELETED", length = 1, nullable = false, columnDefinition = "CHAR(1) DEFAULT 'N'")
+  @Convert(converter = BooleanToYNConverter::class)
+  private var isDeleted: Boolean = false,
+
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "CATEGORY_ID")
   val categoryEntity: CategoryEntity,
@@ -42,4 +48,8 @@ data class ProductEntity(
 
   @Column(name = "UPDATED_AT", nullable = false)
   val updatedAt: Instant = Instant.now()
-)
+) {
+  fun isDeleted(isDeleted: Boolean) {
+    this.isDeleted = isDeleted
+  }
+}

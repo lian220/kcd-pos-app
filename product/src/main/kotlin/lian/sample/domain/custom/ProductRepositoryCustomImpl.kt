@@ -35,6 +35,7 @@ class ProductRepositoryCustomImpl(
       .where(
         eqCategory(searchConditionDto?.categoryId),
         eqProductIds(searchConditionDto?.productIds),
+        productEntity.isDeleted.eq(false)
       )
       .fetch()
 

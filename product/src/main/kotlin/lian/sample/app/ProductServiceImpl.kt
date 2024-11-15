@@ -50,12 +50,19 @@ class ProductServiceImpl(
     return productRepository.findAllBySearchCondition(SearchConditionDto(categoryId, productIds))
   }
 
-  override fun deleteProduct(id: Long): Any {
-    TODO("Not yet implemented")
+  @Transactional
+  override fun deleteProduct(id: Long) {
+    productRepository.findByIdOrNull(id) ?.apply {isDeleted(true)} ?: { throw NoSuchProductException("productId: ${id}") }
   }
 
-  override fun updateProduct(id: Long, product: Product): Any {
-    TODO("Not yet implemented")
+  @Transactional
+  override fun updateProduct(id: Long, product: Product) {
+    categoryRepository.findByIdOrNull(product.categoryId)
+      ?.let {
+        val optionGroup = product.optionGroupId ?. let { optionGroupRepository.findByIdOrNull(product.optionGroupId) }
+        productRepository.save(product.toEntity(id, it, optionGroup))
+      }
+      ?: throw NoSuchCategoryException("categoryId: ${product.categoryId}")
   }
 
   private fun convertEntityToProduct(product: ProductEntity): ProductRes {
